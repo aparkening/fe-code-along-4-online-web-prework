@@ -39,12 +39,6 @@ figcaption {
   text-shadow: 0 2px 3px #000;
 }
 
-/* ID selector (apply to one unique element per page) */
-
-#logo { /* select elements with id="logo" */
-  background: aqua;
-}
-
 /* Descendent Selector */
 
 #logo h1 { /* selects <h1> if inside the id="logo" */
@@ -82,7 +76,6 @@ figcaption {
 .wrapper {
   width: 960px;
   margin: 0 auto;
-  background: #eee;
 }
 
 .col-1 {
